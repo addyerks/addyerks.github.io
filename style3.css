@@ -1,0 +1,132 @@
+html, body {
+	margin: 2;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	background-image: url("intro.svg");
+
+}
+
+@keyframes rainbow {
+	0% {background-color: red;}
+	14% {background-color: orange;}
+	28% {background-color: yellow;}
+	42% {background-color: green;}
+	56% {background-color: blue;}
+	70% {background-color: purple;}
+	80% {background-color: black;}
+}
+
+@keyframes change {
+	0% {transform: translateX(-100px);}
+  50% {transform: translate(100px);}
+}
+
+.dropbtn {
+	border: none;
+	padding: 16px;
+	font-size: 16px;
+	background-color: teal;
+	color: white;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: lightblue;
+	min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content a {
+	color: gray;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+p {
+	color: lightblue;/*TODO: Change the color of paragraph texts*/
+	font-family: 'Gloria Hallelujah';
+}
+
+h1 {
+	color: teal; /*TODO: Change the color of h1 text*/
+	font-family: 'Gloria Hallelujah';
+	animation-name: change;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+img {
+	border-radius: 25px;
+	max-width: 100%;
+}
+
+.brown {
+	color: #73d8f4; /*TODO: Change the color of text to brown*/
+	font-family: 'Gloria Hallelujah';
+}
+
+#page-wrapper {
+	padding: 0 10% 0 10%;
+}
+
+#page-wrapper > * {
+	padding: 50px;
+	margin: auto;
+	height: auto;
+}
+
+#blue {
+	animation-name: rainbow;
+	animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#doubleyellow {
+	display: inline-block;
+	background-color: #f2d5db; /*TODO: Change the background color to yellow*/
+}
+
+#doubleyellow > img  {
+	width: 45%;
+	margin: 0 20px 0 20px;
+}
+
+#green {
+	background-color: #d5eff2; /*TODO: Change the backgrond color to green*/
+}
+
+#yellow {
+	background-color: #f9dbca; /*TODO: Change the background color to yellow*/
+}
+
+#white {
+	background-color: #ecdefc; /*TODO: Change the background color to white*/
+}
+
+#white > img {
+	width: 30.3%;
+}
+
+#content_holder {
+	display: inline-block;
+	background-color:; /*TODO:; change the background color to green*/
+}
+
+.content {
+	width: 44.5%;
+	float: left;
+	margin: 2%;
+	border: 1px dashed orange;
+	padding: 5px;
+	background-color: #f0f0f0;
+}
